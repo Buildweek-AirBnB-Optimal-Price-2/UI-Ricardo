@@ -1,0 +1,31 @@
+.homepage {
+    background-color: #1b262c;
+}
+#page-wrapper {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+#header {
+    padding: 25px;
+    background-color: #0f4c75;
+    display: flex;
+}
+
+#logo {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 5%;
+    margin-right: 75%;
+    float: left;
+}
+
+#nav {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    padding: 5%;
+    
+}
