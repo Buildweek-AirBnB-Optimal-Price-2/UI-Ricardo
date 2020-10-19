@@ -3,29 +3,61 @@
 }
 #page-wrapper {
     border-style: solid;
-    border-color: black;
+    border-color: yellow;
     border-width: 2px;
+    display: flex;
 }
 
 #header {
-    padding: 25px;
-    background-color: #0f4c75;
+    border-style: solid;
+    border-color: green;
+    border-width: 2px;
+    background-color:;
     display: flex;
+    margin: 0;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2020/01/04/20/35/holiday-4741622__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25%;
+    
 }
 
 #logo {
     border-style: solid;
     border-color: white;
     border-width: 2px;
-    padding: 5%;
-    margin-right: 75%;
-    float: left;
+    width: 25%;
+    object-fit: cover;
+}
+.air {
+    border-radius: 50%;
 }
 
-#nav {
+#nav-wrapper {
     border-style: solid;
     border-color: blue;
     border-width: 2px;
-    padding: 5%;
-    
+    display: flex;
+    justify-content: center;
+    width: 75%;
+
+}
+.nav {
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    width: 50%;
+    height: min-content;
+    background-color: #bbe1fa;
+}
+.topnav {
+    font-size: 20px;
+    margin: 2%;
+    text-decoration: none;
+    color: #0f4c75;
 }
