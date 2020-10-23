@@ -6,12 +6,13 @@
     border-color: yellow;
     border-width: 2px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #header {
     border-style: solid;
     border-color: green;
-    border-width: 2px;
+    border-width: 5px;
     background-color:;
     display: flex;
     margin: 0;
@@ -19,7 +20,7 @@
     background-image: url("https://cdn.pixabay.com/photo/2020/01/04/20/35/holiday-4741622__340.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 25%;
+    padding-bottom: 12%;
     
 }
 
@@ -50,14 +51,42 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 2%;
+    padding: 0.1%;
     width: 50%;
     height: min-content;
     background-color: #bbe1fa;
 }
 .topnav {
-    font-size: 20px;
+    font-size: 125%;
     margin: 2%;
     text-decoration: none;
-    color: #0f4c75;
+    color: #0f4c75; 
+}
+#mid-page {
+    border-style: solid;
+    border-color: orange;
+    border-width: 3px;
+    width: 100%;
+}
+.mid-pics {
+    border-style: solid;
+    border-color: cyan;
+    border-width: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+.mid-wrap {
+    border-style: solid;
+    border-color: purple;
+    border-width: 3px;
+    color: white;
+    margin: 4%;
+}
+.mid-text {
+    background-color: #bbe1fa;
+    height: 25%;
+    font-size: 24px;
+    text-align: center;
 }
