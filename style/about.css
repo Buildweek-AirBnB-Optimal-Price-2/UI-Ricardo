@@ -1,5 +1,5 @@
 .homepage {
-    background-color: #bbe1fa;
+    background-color: #0f4c75;
 }
 #page-wrapper {
     border-style: solid;
@@ -54,13 +54,13 @@
     padding: 0.1%;
     width: 50%;
     height: min-content;
-    background-color: #bbe1fa;
+    background-color: #0f4c75;
 }
 .topnav {
     font-size: 125%;
     margin: 2%;
     text-decoration: none;
-    color: #0f4c75; 
+    color: #bbe1fa; 
     font-family: 'Righteous', cursive;
 }
 .topnav:hover {
@@ -72,44 +72,71 @@
     border-color: orange;
     border-width: 3px;
     width: 100%;
+    display: flex;
 }
-h1 {
-    color: #3282b8;
-    font-size: 40px;
-    font-family: 'Merienda', cursive;
-    text-align: center;
-}
-.mid-sec {
+.about {
     border-style: solid;
     border-color: cyan;
     border-width: 3px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     height: 100%;
+    overflow: hidden;
 }
-.mid-wrap {
-    border-style: solid;
-    border-color: purple;
-    border-width: 5px;
-    color: white;
-    margin: 4%;
-    display: flex;
-    flex-direction: column;
-}
-.mid-pics {
+.h1 {
     border-style: solid;
     border-width: 5px;
-    border-color: moccasin;
-    margin: 0;
-}
-.mid-text {
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
-    background-color: #3282b8;
-    height: 50%;
-    font-size: 24px;
+    border-color: lawngreen;
+    color: #bbe1fa;
+    font-size: 75px;
+    font-family: 'Merienda', cursive;
     text-align: center;
-    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 50px 10px 50px;
+    margin: 3% 28% 3% 28%;
+}
+.h2 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0f4c75;
+    color: white;
+    font-size: 32px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 50px 10px 50px;
+    margin: 0 28%;
+}
+.about-profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 5%;
+}
+.about-pics {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3282b8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 0;
+}
+.info-text {
+    display: flex;
+    background-color: #bbe1fa;
+    margin-top: -1%;
+    padding: 5% 15%;
 }
