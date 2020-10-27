@@ -2,18 +2,18 @@
     background-color: #bbe1fa;
 }
 #page-wrapper {
-    border-style: solid;
+   /* border-style: solid;
     border-color: yellow;
-    border-width: 2px;
+    border-width: 2px;*/
     display: flex;
     flex-wrap: wrap;
 }
 
 #header {
-    border-style: solid;
+/*    border-style: solid;
     border-color: green;
     border-width: 5px;
-    background-color:;
+    background-color:; */
     display: flex;
     margin: 0;
     width: 100%;
@@ -25,9 +25,9 @@
 }
 
 #logo {
-    border-style: solid;
+   /* border-style: solid;
     border-color: white;
-    border-width: 2px;
+    border-width: 2px; */
     width: 25%;
     object-fit: cover;
 }
@@ -36,9 +36,9 @@
 }
 
 #nav-wrapper {
-    border-style: solid;
+   /* border-style: solid;
     border-color: blue;
-    border-width: 2px;
+    border-width: 2px; */
     display: flex;
     justify-content: center;
     width: 75%;
@@ -68,9 +68,9 @@
     text-shadow: 2px 2px 15px #0f4c75;
 }
 #mid-page {
-    border-style: solid;
+   /* border-style: solid;
     border-color: orange;
-    border-width: 3px;
+    border-width: 3px; */
     width: 100%;
 }
 h1 {
@@ -80,36 +80,44 @@ h1 {
     text-align: center;
 }
 .mid-sec {
-    border-style: solid;
+   /* border-style: solid;
     border-color: cyan;
-    border-width: 3px;
+    border-width: 3px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     height: 100%;
 }
 .mid-wrap {
-    border-style: solid;
+   /* border-style: solid;
     border-color: purple;
-    border-width: 5px;
+    border-width: 5px; */
     color: white;
     margin: 4%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
 }
 .mid-pics {
-    border-style: solid;
+   /* border-style: solid;
     border-width: 5px;
-    border-color: moccasin;
-    margin: 0;
+    border-color: moccasin; */
+    margin: 0 50%;
 }
 .mid-text {
-    border-style: solid;
+  /*  border-style: solid;
     border-width: 5px;
-    border-color: red;
+    border-color: red; */
     background-color: #3282b8;
-    height: 50%;
-    font-size: 24px;
+    height: 15%;
+    font-size: 20px;
     text-align: center;
     margin: 0;
+}
+@media only screen and (min-width: 600px) {
+    #logo {
+        width: 50%;
+    }   
 }
